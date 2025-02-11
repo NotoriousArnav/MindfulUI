@@ -78,6 +78,8 @@ export default function NoteEditor({ note, onNoteUpdate }) {
       <div className="text-right space-x-2">
         <Button variant="destructive" onClick={handleDelete}> Delete </Button>
         <Button onClick={handleSave}>Save</Button>
+        <button>vectorize</button
+          >
       </div>
     </div>
   )
